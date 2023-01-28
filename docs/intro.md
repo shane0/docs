@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# derp
+# docs/
 
-this is the intro page
+[docs on docs](https://docusaurus.io/docs/docs-introduction)

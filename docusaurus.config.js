@@ -37,12 +37,10 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: require.resolve("./sidebars.js"),
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        // },
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -59,27 +57,23 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // navbar: {
-      //   title: "shane0",
-      //   logo: {
-      //     alt: "Logo",
-      //     src: "img/logo.svg",
-      //   },
-      //   items: [
-      //     {
-      //       type: "doc",
-      //       docId: "intro",
-      //       position: "left",
-      //       label: "",
-      //     },
-      //     { to: "/blog", label: "Blog", position: "left" },
-      //     {
-      //       href: `https://github.com/${organizationName}/${projectName}`,
-      //       label: "GitHub",
-      //       position: "right",
-      //     },
-      //   ],
-      // },
+      navbar: {
+        title: "shane0",
+        items: [
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "docs",
+          },
+          //     { to: "/blog", label: "Blog", position: "left" },
+          //     {
+          //       href: `https://github.com/${organizationName}/${projectName}`,
+          //       label: "GitHub",
+          //       position: "right",
+          //     },
+        ],
+      },
       // footer: {
       //   style: "dark",
       //   links: [
