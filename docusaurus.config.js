@@ -57,6 +57,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      mermaid: {
+        options: {
+          maxTextSize: 50,
+        },
+      },
       navbar: {
         title: "shane0",
         items: [
