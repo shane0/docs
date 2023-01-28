@@ -15,7 +15,7 @@ const config = {
   baseUrl: `/${projectName}/`,
   // onBrokenLinks: "throw",
   // onBrokenMarkdownLinks: "throw",
-  // favicon: "img/favicon.ico",
+  favicon: "img/favicon.ico",
   // GitHub Pages adds a trailing slash by default that I don't want
   trailingSlash: false,
 
@@ -41,12 +41,12 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        // },
+        blog: {
+          showReadingTime: true,
+          //   // Please change this to your repo.
+          //   // Remove this to remove the "edit this page" links.
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
