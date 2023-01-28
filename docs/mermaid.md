@@ -4,6 +4,9 @@ sidebar_position: 3
 
 # mermaid
 
+- [ ] fixme:
+  - [mermaid](https://docusaurus.io/blog/releases/2.2#mermaid-diagrams)
+
 ```mermaid
 sequenceDiagram
     participant Alice
