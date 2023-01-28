@@ -9,7 +9,7 @@ export default function HomepageFeatures(): JSX.Element {
       <div className="container">
         <div className="row">
           <div className="col">
-            <a href="./markdown-page">this is a markdown page</a>
+            <p>boop</p>
           </div>
         </div>
       </div>
