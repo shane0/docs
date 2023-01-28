@@ -66,12 +66,12 @@ const config = {
             position: "left",
             label: "docs",
           },
-          //     { to: "/blog", label: "Blog", position: "left" },
-          //     {
-          //       href: `https://github.com/${organizationName}/${projectName}`,
-          //       label: "GitHub",
-          //       position: "right",
-          //     },
+          { to: "/blog", label: "blog", position: "left" },
+          {
+            href: `https://github.com/${organizationName}/${projectName}`,
+            label: "GitHub",
+            position: "right",
+          },
         ],
       },
       // footer: {
