@@ -1,6 +1,5 @@
-# push.sh 'comment'
 #!/usr/bin/env bash
-# ./push.sh commit_message
+# ./push.sh 'commit message' 
 
 function addcommitpush () {
   message=(\'"$@"\')
