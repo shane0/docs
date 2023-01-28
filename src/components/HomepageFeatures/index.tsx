@@ -9,7 +9,6 @@ export default function HomepageFeatures(): JSX.Element {
       <div className="container">
         <div className="row">
           <div className="col">
-            <p>boop</p>
           </div>
         </div>
       </div>

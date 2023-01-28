@@ -79,38 +79,45 @@ const config = {
           },
         ],
       },
-      // footer: {
-      //   style: "dark",
-      //   links: [
-      //     {
-      //       title: "",
-      //       items: [
-      //         {
-      //           label: "",
-      //           to: "/docs/intro",
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "",
-      //       items: [
-      //         {
-      //           label: "",
-      //           to: "/blog",
-      //         },
-      //         {
-      //           label: "GitHub",
-      //           href: `https://github.com/${organizationName}/${projectName}`,
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `${new Date().getFullYear()}`,
-      // },
+      footer: {
+        style: "dark",
+        // links: [
+        // {
+        //   title: "",
+        //   items: [
+        //     {
+        //       label: "",
+        //       to: "/docs/intro",
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: "repo",
+        //   items: [
+        //     {
+        //       label: "",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "GitHub",
+        //       href: `https://github.com/${organizationName}/${projectName}`,
+        //     },
+        //   ],
+        // },
+        // ],
+        copyright: `${new Date().getFullYear()}`,
+      },
+      markdown: {
+        mermaid: true,
+      },
+      themes: ["@docusaurus/theme-mermaid"],
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         defaultMode: "dark",
+        mermaid: {
+          theme: { light: "neutral", dark: "forest" },
+        },
       },
     }),
 };
