@@ -1,9 +1,13 @@
 # mkdocs
 
-I use [mkdocs material](https://squidfunk.github.io/mkdocs-material/)
+I usually use [mkdocs material](https://squidfunk.github.io/mkdocs-material/)
 
-so I'm comparing docusaurus to that
+recently built deployed this one: <https://shane0.github.io>
 
-to compete with mkdocs mermaid needs to work
+as I was experimenting with chatgpt
 
-it's not working, I will tinker for a while but so far I say POO
+anyway, I'm comparing docusaurus to mkdocs as a possible replacment
+
+so far, mkdocs has a lot to offer
+
+but with some feature building and pipelines it might become useful
